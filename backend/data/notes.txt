@@ -1,0 +1,138 @@
+# Introduction to Artificial Intelligence
+
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think, reason, and learn. AI systems are capable of performing tasks such as language understanding, image recognition, recommendation generation, and decision-making.
+
+## Types of AI
+
+### Narrow AI
+
+Narrow AI is designed to perform a specific task. Examples include virtual assistants, recommendation systems, and spam filters.
+
+### General AI
+
+General AI refers to systems that can perform any intellectual task that a human can do. This type of AI does not yet exist.
+
+## Machine Learning
+
+Machine Learning (ML) is a subset of AI where systems learn patterns from data instead of being explicitly programmed.
+
+### Supervised Learning
+
+In supervised learning, models are trained using labeled datasets.
+
+Examples:
+
+* Email spam detection
+* House price prediction
+* Sentiment analysis
+
+### Unsupervised Learning
+
+Unsupervised learning identifies hidden structures in unlabeled data.
+
+Examples:
+
+* Customer segmentation
+* Anomaly detection
+* Clustering
+
+### Reinforcement Learning
+
+Reinforcement learning trains agents using rewards and penalties.
+
+Examples:
+
+* Robotics
+* Game playing AI
+* Self-driving cars
+
+## Natural Language Processing
+
+Natural Language Processing (NLP) enables machines to understand and generate human language.
+
+Applications:
+
+* Chatbots
+* Language translation
+* Text summarization
+* Question answering systems
+
+## Retrieval-Augmented Generation (RAG)
+
+RAG combines retrieval systems with large language models.
+
+### Components of RAG
+
+1. Document Loader
+2. Text Chunking
+3. Embedding Model
+4. Vector Database
+5. Retriever
+6. Large Language Model
+
+### Benefits of RAG
+
+* Improves factual accuracy
+* Reduces hallucinations
+* Enables domain-specific responses
+* Allows models to access external knowledge
+
+## Vector Databases
+
+Vector databases store embeddings and perform similarity search.
+
+Popular vector databases:
+
+* ChromaDB
+* Pinecone
+* Weaviate
+* FAISS
+
+## Embeddings
+
+Embeddings convert text into numerical vectors.
+
+Embedding models capture semantic meaning, allowing similar sentences to be placed close together in vector space.
+
+## Chunking
+
+Chunking divides large documents into smaller sections.
+
+Common chunking strategies:
+
+* Fixed-size chunking
+* Recursive chunking
+* Semantic chunking
+
+## FastAPI
+
+FastAPI is a modern Python framework for building APIs.
+
+Advantages:
+
+* High performance
+* Automatic documentation
+* Easy integration with AI applications
+
+## Streamlit
+
+Streamlit is a Python framework used for building interactive data and AI applications quickly.
+
+Features:
+
+* Easy UI development
+* Fast deployment
+* Python-only workflow
+
+## Deployment
+
+AI applications can be deployed using:
+
+* Render
+* Railway
+* Streamlit Cloud
+* Hugging Face Spaces
+
+## Conclusion
+
+RAG systems are becoming increasingly important in modern AI applications. They improve answer quality by combining retrieval techniques with powerful language models.

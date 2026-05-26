@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat With Your Documents</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="title">Chat With Your Documents</div>
+        <div class="subtitle">Upload .txt files → Ingest → Ask questions</div>
+      </header>
+
+      <main class="main">
+        <section class="panel">
+          <h2>1) Upload documents</h2>
+          <div class="row">
+            <input id="files" type="file" accept=".txt" multiple />
+            <button id="uploadBtn">Upload</button>
+          </div>
+          <div class="hint">Supported: .txt</div>
+
+          <h2>2) Ingest to vector DB</h2>
+          <div class="row">
+            <button id="ingestBtn">Ingest</button>
+            <div id="ingestStatus" class="status"></div>
+          </div>
+
+          <h2>Backend</h2>
+          <div class="row">
+            <input id="apiBase" type="text" spellcheck="false" />
+            <button id="pingBtn">Ping</button>
+          </div>
+          <div id="pingStatus" class="status"></div>
+        </section>
+
+        <section class="chat">
+          <div id="messages" class="messages"></div>
+          <form id="chatForm" class="composer">
+            <input
+              id="question"
+              type="text"
+              placeholder="Ask a question about your documents…"
+              autocomplete="off"
+            />
+            <button id="sendBtn" type="submit">Send</button>
+          </form>
+          <div id="chatStatus" class="status"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
+

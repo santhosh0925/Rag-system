@@ -1,0 +1,39 @@
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*.pyd
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+.python-version
+
+# Virtual environments
+backend/venv/
+venv/
+.venv/
+
+# Environment files (secrets)
+.env
+*.env
+
+# Logs
+*.log
+backend_server.out.log
+backend_server.err.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node / frontend (if applicable)
+**/node_modules/
+**/dist/
+**/build/
+**/.next/
+
+# Local data / vectorstores (common RAG defaults)
+**/chroma*/
+**/*.sqlite3
+**/*.db
